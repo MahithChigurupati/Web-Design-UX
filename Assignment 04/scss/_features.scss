@@ -1,0 +1,33 @@
+/* About section below cover image styling */
+
+.About{
+    margin-left: 45px;
+    padding: 50px;
+
+    display: flex;
+
+
+
+  .column {
+    flex:1;
+
+    @for $i from 1 through 4 {
+      figcaption:nth-child(#{$i}){
+          font-weight:bolder;
+      }
+    }
+
+  .nearby{
+    @include dimensions($standard-height,$standard-width);
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: auto;
+    }
+
+    .near{
+      padding: 40px;
+    }
+
+  }
+}
+

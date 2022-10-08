@@ -1,0 +1,35 @@
+// scss rules for footer section
+
+
+.container{
+    box-sizing: border-box;
+    background-color:rgb(226, 232, 246) ;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+
+    .bottom{
+        padding: 10px;
+        text-align: center;
+        margin-bottom: auto;
+    
+    }
+    //scss for copyright in footer
+    .copyright{
+        display: inline;
+        float: left;
+
+     }
+
+     .social{
+        float: right;
+    }
+ 
+ }
+
+
+
+
+
+
+

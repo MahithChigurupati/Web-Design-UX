@@ -1,0 +1,30 @@
+//scss code for blogs section of html page
+
+.Blogs{
+    text-align: center;
+
+     display: flex;
+
+     .blogpost{
+        float: left;
+        width:auto;
+        margin-left: 60px;
+        flex: 1;
+       
+        
+        .pict{
+            @include dimensions(400px,600px);
+            border-radius: 7%;
+        }
+        
+        .pict1{
+            @extend .pict;
+            height:200px;
+        }
+    
+    }
+}
+
+.post{
+    text-align: center;
+}

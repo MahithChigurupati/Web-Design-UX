@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Travelo</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <nav class="row">
+                <img src="images/Group 39708@2x.png" alt="Travelo logo" class="logo">
+
+                <!-- listing unordered links for main navigation bar along with website logo on top of the page
+                    must be styled using CSS -->
+                    <ul class="main_nav">
+                        <a href="#Home">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Places">Places</a>
+                        <a href="#Career">Career</a>
+                        <a href="#Blog">Blog</a>
+                        <button href="#Connect">Connect </button>
+                    </ul>
+            </nav>
+            
+            <!-- main Travelo cover photo for the webpage -->
+            <section id="Home">
+                <figure class = "image">
+                    <img src="images/lalo-hernandez-Amo081zdJsI-unsplash.png" alt="Travelo Cover Image" class="cover">
+                    
+                <!-- Describing the cover photo text to be displayed on the image -->
+
+                    <div>
+                        <h1 class="travelto">TRAVEL TO EXPLORE</h1>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magni officiis maiores consectetur repellat quae, possimus iure aperiam qui fugiat.</p>
+                    </div>
+                </figure>
+                
+
+                <!-- main search bar for user to enter his travel details for checking the hotel reservation details.
+                    need to be placed over the main cover image   -->
+
+                <div class="search">
+                    <form method="post">
+                        <fieldset>
+                            <label for="Where">Where you want to go</label>
+                            <input type="text" name ="where" id="where" placeholder="Search your location" required>
+                            <label for="checkin">Check-in</label>
+                            <input type="date" name ="checkin" id="checkin" placeholder="Add Date" required>
+                            <label for="checkout">Check-out</label>
+                            <input type="date" name ="checkout" id="checkout" placeholder="Add Date" required>
+                            <input type="submit" value="Explore Now" class="explore">
+                            </fieldset>
+                    </form>
+                </div>
+        </section>
+        </header>
+
+            <!-- describing the features of the Travelo website -->
+
+            <div class ="About" id="About">
+                <div class="column">
+                    <img src="images/best price.png" alt="Best Prices">
+                    <p> Get Best Prices</p>
+                    <p>Pay through our application and<br> save thousands and get amazing<br> rewards.</p>
+                    </div>
+
+
+                    <div class="column">
+                    <img src="images/covid safe.png" alt="Covid Safe" >
+                    <p>Covid Safe</p>
+                    <p>We have all the curated hotels that<br> have all the precaution for a covid<br> safe environment<br> rewards.</p>
+                    </div>
+
+                    <div class="column">
+                    <img src="images/payment.png" alt="Flexible payment">
+                    <p>Flexible payment</p>
+                    <p>Enjoy the flexible payment through our<br> app and get rewards on every payment<br> safe environment<br> rewards.</p>
+                    </div>
+
+                    <div class="column">
+                    <img src="images/Nearby.png" alt="nearby" class="nearby">
+                    <div class="near">
+                    <p>Find the best near you</p>
+                    <p>Find the best hotels and places to visit<br> near you in a single click.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- providing the recommended destination options to the customers. -->
+
+            <div class="places" id="Places">
+                <h1 >Recommended Destination</h1>
+                    <ul>
+                        <a href="#Weekend" class="dest">The Weekend Break</a>
+                        <a href="#Package" class="dest">The Package Holiday</a>
+                        <a href="#Tour" class="dest">The Group Tour</a>
+                        <a href="#LongTerm" class="dest">Long Term Slow Travel</a>
+                    </ul>
+            </div>
+
+            <section class="destinations">
+
+                <div id="destination1" class="cities">
+                    <img src="/images/london.png"  alt="singapore" class="picto">
+                    <h2>Singapore</h2>
+                    <h5>Singapore, officially the republic of singapore, is a <br>sovereing island city-state in maritime southeast</h5>
+
+                </div>
+
+                <div id="destination2" class="cities">
+                    <img src="/images/Thailand.png"  alt="thailand" class="picto">
+                    <h2>Thailand</h2>
+                    <h5>Singapore, officially the republic of singapore, is a <br>sovereing island city-state in maritime southeast</h5>
+
+                </div>
+
+                <div id="destination3" class="cities">
+                    <img src="/images/paris.png"  alt="paris" class="picto">
+                    <h2>Paris</h2>
+                    <h5>Singapore, officially the republic of singapore, is a <br>sovereing island city-state in maritime southeast</h5>
+                    
+
+                </div>
+
+                <div id="destination4" class="cities">
+                    <img src="images/newzeland.png" alt="newzeland" class="picto">
+                    <h2>Newzeland</h2>
+                    <h5>Newzeland, officially the republic of singapore, is a <br>sovereing island city-state in maritime southeast</h5>
+                
+                </div>
+
+                <div id="destination5" class="cities">
+                    <img src="/images/bora.png" alt="paris" class="picto">
+                    <h2>Bora Bora</h2>
+                    <h5>Bora, officially the republic of singapore, is a <br>sovereing island city-state in maritime southeast</h5>
+                </div>
+
+                <div id="destination6" class="cities">
+                    <img src="/images/london.png"  alt="london" class="picto">
+                    <h2>London</h2>
+                    <h5>London, officially the republic of singapore, is a <br>sovereing island city-state in maritime southeast</h5>
+                </div>    
+            </section>
+
+            <!-- container for blogposts in html section -->
+
+            <section id ="Blog" class="Blogs">
+                <h1>Blogs</h1>
+                <div>
+                    <figure id="kilimanjaro" class="blogpost">
+                        <img src="images/kilimanjaro.png"  alt="kilimanjaro" class="pict">
+                    </figure>
+
+                    <figure id="NewTraveller" class="blogpost">
+                        <img src="images/NewTraveller.png" alt="NewTraveller" class="pict1">
+                    </figure>
+
+                    <figure id="FemaleTraveller" class="blogpost">
+                        <img src="images/femaletraveller.png"  alt="FemaleTraveller" class="pict1">
+                    </figure>
+
+                </div>
+
+            </section>
+
+            <!-- added section for showcasing customer -->
+
+            <h1 class="review">Happy Customers</h1>
+            <div id ="reviews" class="review">
+                <div class="quote">
+                <blockquote >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia maiores <br>in reiciendis minus a necessitatibus<br> quos tempora, assumenda expedita officia!</blockquote>
+                <ion-icon name="person-circle" class="person"></ion-icon> 
+                <h5>Shalini singh<br>Project manager flyhigh</h5> </div> 
+
+                <div class="quote">
+                <blockquote >Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Quia maiores in reiciendis minus a necessitatibus<br> quos tempora, assumenda expedita officia!</blockquote>
+                <ion-icon name="person-circle" class="person"></ion-icon>
+                <h5>Shalini singh<br>Project manager flyhigh</h5> </div>
+            </div>
+        </div>
+
+            <footer>
+                
+                <ul class="bottom">
+                    <p class="copyright">copyright 2020 Travelo. All rights reserved</p>
+                    <a href="#Home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Places">Places</a>
+                    <a href="#Career">Career</a>
+                    <a href="#Blog">Blog</a>
+                    
+                    <a href="#" target="_blank" class="social"><ion-icon name="logo-facebook"></ion-icon></a>   
+                    <a href="https://www.linkedin.com/in/saimahith-chigurupati/" target="_blank" class="social">  
+                    <ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#" target="_blank" class="social"> <ion-icon name="logo-instagram"></ion-icon></a>
+                    
+                    
+                </ul>
+            </footer>
+
+            <!-- loading ion packs used in the footer -->
+
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+    </body>
+
+</html>

@@ -1,0 +1,96 @@
+// scss code for header section of html page
+
+@import 'config';
+@import 'mixin';
+
+header{
+    text-align: center;
+
+    .travelto{
+        @include common;
+        @include common-2;
+        text-align: center;
+        top: 25%;
+        font-size: 50px;
+ 
+    }
+
+    .content{
+        @include common;
+        @include common-2;
+        position: absolute;
+        top: 35%;
+        font-size: 20px;
+        justify-content: center;
+        width: 30%;
+
+    
+    }
+}
+
+
+.main-header{
+    padding: 10px;
+    
+    button{
+        float: right;
+        border-radius: 25px;
+        background-color: $main-color;
+        color: $secondary-color;
+        margin-right: 100px;
+        border: 0;
+        
+    }
+
+    .row{
+        position: fixed;
+        width: 100%;
+        background-color: $secondary-color;
+        top: 0;
+        
+    }
+
+    .logo{
+        float: left;
+        margin-left: 50px;
+        width: $standard-width;
+        height: 25px;
+        margin-top: 10px;
+    
+    }
+}
+
+
+.cover{
+    margin-top: 50px;
+    width:100%;
+   
+}
+
+
+/* search text box styling */
+
+.search{
+    @include common;
+    top: 45%;
+    left: 48%;
+    width: 55%;
+    background-color:$secondary-color ;
+    border-radius: 15px;
+    opacity: 70%;
+    padding: 15px;
+    margin-top: 30px;
+
+    fieldset{
+        border: 0px;
+        justify-content: center;
+        width: auto;
+
+        .explore{
+        border-radius: 12px;
+        color: $secondary-color;
+        background-color: $main-color;
+        }
+    }
+}
+

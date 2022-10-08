@@ -1,0 +1,32 @@
+// scss code for reviews section of html page
+
+.review{
+    
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+     .quote{
+        float: left;
+        width:auto;
+        margin-left: 60px;
+        flex:1;
+        
+        blockquote {
+            padding: 2%;
+            font-style: italic;
+            line-height: 145%;
+            position: relative;
+            margin-top: 40px;
+            
+        }
+
+        .person{
+            font-size: 50px;
+        }
+     }
+ }
+
+ .customers{
+    text-align: center;
+ }

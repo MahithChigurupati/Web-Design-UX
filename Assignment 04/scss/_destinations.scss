@@ -1,0 +1,54 @@
+/* destination section styling */
+
+
+.places{
+    text-align: center;
+
+    .dest:hover{
+
+        text-decoration: underline;
+    }
+ }
+
+
+.destinations{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 60px;
+    padding: 30px;
+
+    .cities{
+        flex: 1;
+        float: left;
+        width: 33%;
+
+        .cost {
+            float: right;
+            margin-right: 50px;
+        }
+        .days{
+            @extend .cost;
+        }
+
+        // using loops to set image caption text as bold
+        @for $i from 1 to 6 {
+            p:nth-child(#{$i}){
+                font-weight:bold;
+            }
+        }
+
+        .picto{
+            border-radius: 5%;
+            @include dimensions(400px,400px);
+
+
+            .material-icons{
+                width: auto;
+                padding: 5px;
+             }
+            
+            
+        }
+    }
+}
+

@@ -1,0 +1,281 @@
+/* header styling */
+
+
+header{
+    text-align: center;
+}
+
+
+.main_nav > button{
+    float: right;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: white;
+    margin-right: 40px;
+    border: 0;
+}
+
+.main_nav{
+    padding: 10px;
+
+}
+
+.logo{
+    float: left;
+    margin-left: 50px;
+    width: 100px;
+    height: 25px;
+
+}
+
+.cover{
+    width:100%;
+   
+}
+
+
+/* cover text styling */
+
+.travelto{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0%;
+}
+
+/* description text in cover image styling */
+.content{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+
+/* common styling for all links */
+a{
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: rgb(31, 89, 114);
+}
+
+a:hover{
+    color: rgb(95, 126, 143);
+}
+
+
+/* search text box styling */
+
+.search{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    background-color:rgb(227, 254, 254) ;
+    border-radius: 15px;
+    opacity: 70%;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+fieldset{
+    border: 0px;
+    justify-content: center;
+    width: auto;
+}
+
+.explore{
+    border-radius: 12px;
+    color: white;
+    background-color: blueviolet;
+}
+
+/* About section below cover image styling */
+
+
+.nearby{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: auto;
+}
+
+.near{
+    padding: 40px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+
+  }
+
+.About{
+    margin-left: 45px;
+    padding: 50px;
+  }
+
+.About:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/* destination section styling */
+
+.cities{
+    float: left;
+    width: 33%;
+
+
+}
+
+.dest:hover{
+
+    text-decoration: underline;
+}
+
+
+.destinations{
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 60px;
+    padding: 30px;
+
+}
+
+.places{
+    text-align: center;
+ }
+
+ /* blog post section styling */
+
+.blogpost{
+    float: left;
+    width:auto;
+    margin-left: 60px;
+    
+
+}
+
+.pict, .pict1{
+    border-radius: 7%;
+    
+}
+
+.pict{
+    width: 600px;
+    height:400px;
+}
+
+.pict1{
+    width: 600px;
+    height:200px;
+}
+
+.picto{
+    border-radius: 5%;
+    width: 400px;
+    height: 400px;
+}
+
+.Blogs{
+    text-align: center;
+}
+
+.Blogs:after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ /* customer reviews section styling */
+
+ .review{
+    margin-left: 55px;
+    padding-left: 100px;
+    padding-right: 75px;
+ }
+
+ .review::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .quote{
+    float: left;
+    width:auto;
+    margin-left: 60px;
+ }
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    
+}
+
+.person{
+    font-size: 50px;
+}
+
+ion-icon{
+    font-size: 30px;
+}
+
+
+.review{
+    text-align: center;
+  }
+
+ /* footer styling */
+
+.bottom{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+.copyright{
+    display: inline;
+    float: left;
+ }
+
+ footer{
+    background-color:rgb(226, 232, 246) ;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+ }
+
+ .social{
+    float: right;
+}
+
+

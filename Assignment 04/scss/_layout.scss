@@ -1,0 +1,21 @@
+/* common styling for all links */
+
+a{
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: rgb(31, 89, 114);
+
+
+    :hover{
+        color: rgb(95, 126, 143);
+    }
+}
+
+ion-icon{
+    font-size: 30px;
+}
+
+section{
+    margin-bottom: 50px;
+}
