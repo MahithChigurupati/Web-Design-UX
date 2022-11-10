@@ -1,0 +1,73 @@
+//side bar both left and right are managed here in this file
+@import 'mixin';
+
+.sidebar{
+    @include common;
+    float: left;
+    box-shadow: 10px 10px 10px $shadow-color;
+    margin-right: 30px;
+    .side-heading{
+        text-align: center;
+    }
+    .add-item{
+        margin: 10px;
+        background-color: rgb(249, 139, 5);
+        margin-left: 70%;
+        border-radius: 20px;
+        border: none;
+        width: 70px;
+        padding: 10px;
+    }
+}
+
+.add-item:hover{
+    background-color: rgb(21, 198, 56);
+    
+}
+
+.right-bar{
+    @include common;
+    float: right;
+    box-shadow: -10px 10px 10px $shadow-color;
+    .right-heading{
+        text-align: center;
+    }
+    .item{
+        background-color: greenyellow;
+    }
+    
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+.btn-submit{
+    float: right;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-submit:hover{
+background-color: $primary-color;
+cursor: pointer;
+}
+
+.item{
+    border: 1px red solid;
+    padding: 20px;
+    list-style: none;
+    padding-right: 0%;
+    
+
+}
+
+.item:hover{
+    cursor: pointer;
+        background-color: aqua;
+}
+
+.btnDone{
+    background-color: $primary-color;
+}

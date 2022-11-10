@@ -1,0 +1,17 @@
+// Header styling scss file
+@import 'config';
+
+.main-header{
+    width: auto;
+    text-align: center;
+    background-color: $primary-color;
+    color: white;
+    height: 90px;
+    .main-heading{
+        padding-top: 30px;
+        text-align: center;
+        margin-left: 50px;
+        background-color: $primary-color;
+    }
+    
+}
