@@ -1,0 +1,16 @@
+@import '../Styles/mixin';
+@import '../Styles/config';
+
+// styling the right component that displays the closed items
+.right-bar{
+    @include common;
+    float: right;
+    box-shadow: -10px 10px 10px $shadow-color;
+    .right-heading{
+        text-align: center;
+    }
+    .item{
+        background-color: greenyellow;
+    }
+    
+}
