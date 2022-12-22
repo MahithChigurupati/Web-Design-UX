@@ -1,0 +1,29 @@
+$color_1: rgb(255, 255, 255);
+$font-family_1: "Montserrat", sans-serif;
+$background-color_1: #885400;
+$background-color_2: #2626a1;
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap";
+body {
+  margin: 0;
+  font-family: $font-family_1 !important;
+  background-image: url("/");
+  background-size: contain;
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
+}
+.primary {
+  background-color: $background-color_1;
+  padding: 5px 20px;
+  color: $color_1;
+  border: none;
+  border-radius: 3px;
+}
+.secondary {
+  background-color: $background-color_2;
+  padding: 5px 20px;
+  color: $color_1 !important;
+  border: none;
+}
